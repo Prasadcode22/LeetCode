@@ -8,7 +8,7 @@ class Solution:
             if c in par :
                 if stack and stack[-1] == par[c]:
                     # check the top of the stack element at stack[-1]
-                    stack.pop() # pop the parenthesis 
+                    stack.pop() # pop the parenthesis as there is closing type 
                 else:
                     return False # which means the parenthesis are in wrong order 
             else:
