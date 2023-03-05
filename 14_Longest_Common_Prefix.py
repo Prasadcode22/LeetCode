@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         res = ""
@@ -11,6 +12,8 @@ class Solution:
                     return res
             res += char 
         return res
+    
+
     
 if __name__ == '__main__':
     strs = ["flower","flow","flight"]
