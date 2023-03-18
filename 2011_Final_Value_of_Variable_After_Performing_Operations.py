@@ -8,8 +8,6 @@ class Solution:
             elif a == "++X" or a == "X++":
                 x += 1
         return x
-            
-
 if __name__ == '__main__':
     operations = ["--X","X++","X++"]
     print(Solution().finalValueAfterOperations(operations))
