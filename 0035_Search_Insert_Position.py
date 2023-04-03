@@ -1,3 +1,4 @@
+# Search Insert min-max or exact
 class Solution:
     def searchInsert(self, nums, target):
         start = 0
