@@ -1,3 +1,4 @@
+# Restore the String
 class Solution:
     def restoreString(self, s, indices):
         out = ['']*len(s)
